@@ -3,14 +3,18 @@ name = "machine-learning"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
+    "autoviz>=0.1.732",
     "jupyter>=1.1.1",
+    "lazypredict>=0.2.16",
     "lightgbm>=4.6.0",
     "matplotlib>=3.10.5",
     "numpy>=2.3.2",
+    "optuna>=4.4.0",
     "pandas>=2.3.1",
     "scikit-learn>=1.7.1",
+    "scikit-surprise>=1.1.4",
     "seaborn>=0.13.2",
     "statsmodels>=0.14.5",
     "xgboost>=3.0.3",
